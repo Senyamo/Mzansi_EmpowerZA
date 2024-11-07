@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmpowerSA - Empowering Youth for a Brighter Future</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome to EmpowerSA</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About Us</a>
+            <a href="/jobs">Jobs</a>
+            <a href="/resources">Resources</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome-section">
+            <h2 class="welcome-message">
+                Your platform for youth employment opportunities, resources, and mentorship in South Africa.
+            </h2>
+            <img src="{{ url_for('static', filename='images/EmpowerSA.webp') }}" alt="EmpowerSA Logo" class="logo-image">
+        </section>
+    </main>
+
+    <footer>
+        <p>EmpowerSA &copy; 2024 - Empowering Youth for a Brighter Future</p>
+    </footer>
+</body>
+</html>
+
